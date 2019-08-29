@@ -1,0 +1,110 @@
+body{
+	background-image: url(background5.jpg);  /* background */
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+/* barra com o titulo e logo do sit, barra com background transparente na cor preta, com escrita em neon azul */
+h1{
+	color: red;
+	border: 1px; color: #00FFFF;
+	text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px lightgreen;
+	text-align: center;
+}
+
+/* .estilo1{
+	border: 1px;
+	
+	opacity: 1;
+	 border-radius: 25px;
+	 background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)); }
+
+	 #transparenc{
+	 	border-radius: 25px;
+	 } */
+
+	 /* barra menu */
+
+	/* .dsmenu{
+
+	 	float: left; width: 30%;
+		height:400px ;
+	 	width:300px ;
+
+ 	    border: 1px;
+	    border-color: yellow;
+	    opacity: 1;
+	    border-radius:25px;
+	    background-image: linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0.8));
+
+	 }
+
+	/* a:link{
+	 	text-decoration: none;
+	 	padding: 10px 10px;
+
+	 }
+	 */
+
+	 #menu ul {
+    padding:0px;
+    margin:0px;
+    background-image:  linear-gradient(to right, rgba(255,255,255,0.7), rgba(255,255,255,0.8));
+    list-style:none;
+    border-radius: 30px;
+}
+    #menu ul li { display: inline; }
+	 ul{
+	 	right:5px
+	 	width:;
+        list-style-type:none;
+        margin:0px;
+        line-height:45px;
+        padding:12px;
+        text-align:center;
+    } 
+
+    a:link, a:visited {
+  background-color: ;
+  color: black;
+  padding: 5px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+	background-image: linear-gradient(to right, rgba(255,255,255,0.8), rgba(255,255,255,0.7));
+	border-radius: 25px;
+}
+
+
+	 
+
+	 /* caixa de texto pagina principal*/
+
+	 .form2{
+	  margin-right: 100px;
+	 	margin-top: 20px;
+	 	padding: 10px;
+	 	float: right;
+        width:1190px ;
+        height: 600px;
+	 	align-content: 
+	 	border: 1px;
+	border-color: yellow;
+	opacity: 1;
+	border-radius:25px;
+	background-image: linear-gradient(to right, rgba(255,255,255,0.5), rgba(255,255,255,0.6))
+	 }
+
+
+/*.cont{
+	display: table;
+} */
+
+#text{
+    padding: 10px;
+    text-align: justify;
+	
+	
+}
