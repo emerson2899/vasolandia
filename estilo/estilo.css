@@ -8,11 +8,16 @@ html,body, .capa{
 }
 
 body{
-	/*background-image: url('../imagens/fundo2.jpg'); */
-    background-color: #33cc66;
+	background-image: url('../imagens/fundo2.jpg');
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	background-attachment: fixed;
+	
+   /* background-color: #33cc66; */
 	/*background-repeat: no-repeat; */
 	/*background-size: 15000px; 
 	font-family: Helvetica, Arial, Sans-serif; */
+	position: relative;
 }
 
 
@@ -21,7 +26,7 @@ body{
 	display: block;
 	padding: 5px;
 	background-size: contain;
-	color:#000000;
+	color:#ffffff;
 }
 
 nav.navbar-transparent{
@@ -37,7 +42,7 @@ nav.navbar-transparent{
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #000000;
+	color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>li>a hover{
@@ -55,7 +60,7 @@ nav.navbar-transparent{
 
 .texto-capa{
 	text-align: center;
-	color: #000000;
+	color: #ffffff;
 	display: table-cell;
 	vertical-align: middle;
 	text-shadow: 0 0 0.2em #ffffff;
@@ -93,6 +98,8 @@ h3{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px; 
+	
+	border: 4px #fff solid;
 }
 
 #im{
@@ -111,7 +118,7 @@ h3{
 
 #lin{
  text-decoration: none;
- color: #000000;
+ color: #ffffff;
  font-size: 30px;
 }
 
@@ -190,8 +197,9 @@ form>input{
 }
 
 .tabela{
-	border: 1px black;
+	border: 1px #fff;
 	border-style: solid;
+	border-radius: 30px;
 	width: 900px;
 	margin-bottom: 500px ; 
 
@@ -199,6 +207,7 @@ form>input{
 	align-items: center;
 	align-self: center;
 	margin:-30px -40px;
+	
 
 }
 
